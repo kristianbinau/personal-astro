@@ -25,8 +25,13 @@ import react from "@astrojs/react";
 import node from "@astrojs/node";
 
 // https://astro.build/config
+import lit from "@astrojs/lit";
+
+// https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), partytown(), sitemap(), vue(), svelte(), solidJs(), react()],
+  integrations: [lit(), tailwind(), partytown(), sitemap(), vue(), svelte(), solidJs(), react()],
   output: 'server',
-  adapter: node({ mode: 'standalone' })
+  adapter: node({
+    mode: 'standalone'
+  })
 });
