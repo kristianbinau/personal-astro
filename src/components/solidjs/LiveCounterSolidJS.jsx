@@ -13,8 +13,7 @@ const LiveCounter = () => {
     return <div className="card solidjs">
         <a>
             <h2>
-                SolidJS
-                <span>&rarr;</span>
+                SolidJS <span>&rarr;</span>
             </h2>
             <p className="flex justify-center items-center">
                 Has been counting for: {seconds} seconds.

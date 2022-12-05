@@ -25,8 +25,7 @@ class LiveCounter extends React.Component {
             <div className="card react">
                 <a>
                     <h2>
-                        React
-                        <span>&rarr;</span>
+                        React <span>&rarr;</span>
                     </h2>
                     <p className="flex justify-center items-center">
                         Has been counting for: {this.state.seconds} seconds.
