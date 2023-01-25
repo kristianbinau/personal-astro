@@ -11,28 +11,28 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/lit": "^1.0.1",
-    "@astrojs/node": "^2.0.2",
-    "@astrojs/partytown": "^1.0.1",
-    "@astrojs/react": "^1.2.2",
+    "@astrojs/lit": "^1.1.0",
+    "@astrojs/node": "^5.0.0",
+    "@astrojs/partytown": "^1.0.3",
+    "@astrojs/react": "^2.0.0",
     "@astrojs/sitemap": "^1.0.0",
-    "@astrojs/solid-js": "^1.2.2",
-    "@astrojs/svelte": "^1.0.2",
-    "@astrojs/tailwind": "^2.1.1",
-    "@astrojs/vue": "^1.2.1",
-    "@types/react": "^18.0.24",
-    "@types/react-dom": "^18.0.8",
+    "@astrojs/solid-js": "^2.0.0",
+    "@astrojs/svelte": "^2.0.0",
+    "@astrojs/tailwind": "^3.0.0",
+    "@astrojs/vue": "^2.0.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
     "@webcomponents/template-shadowroot": "^0.1.0",
-    "astro": "^1.6.0",
-    "lit": "^2.4.1",
+    "astro": "^2.0.1",
+    "lit": "^2.6.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "solid-js": "^1.6.1",
-    "svelte": "^3.52.0",
-    "tailwindcss": "^3.2.1",
-    "vue": "^3.2.41"
+    "solid-js": "^1.6.9",
+    "svelte": "^3.55.1",
+    "tailwindcss": "^3.2.4",
+    "vue": "^3.2.45"
   },
   "devDependencies": {
-    "sass": "^1.55.0"
+    "sass": "^1.57.1"
   }
 }
